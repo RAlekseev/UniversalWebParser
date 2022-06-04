@@ -1,0 +1,39 @@
+{
+    "parser": {
+        "id": 1,
+        "name": "РБК",
+        "url": "rbc.ru",
+        "search_link_selector": ".link",
+        "targets": [
+            1,
+            2
+        ],
+        "images_selector": "img.logo",
+        "links_selector": "a.sources",
+        "timeout": 5,
+        "amount": 15
+    },
+
+    "result": {
+        "id": 1,
+        "parser_id": 1,
+        "targets_result": [
+            {
+                "key": "Title",
+                "value": "Bla bla"
+            }
+        ],
+        "images": [
+            {
+                "src": "https://bla-bla",
+                "alt": "Alt"
+            }
+        ],
+        "links": [
+            {
+                "src": "https://bla-bla",
+                "alt": "Alt"
+            }
+        ]
+    }
+}
